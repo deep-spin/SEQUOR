@@ -7,7 +7,7 @@
 
 ## Repository Structure
 
-- `data/`: Constraints, tasks, and testsets that constitute SEQUOR.
+- `data/`: Constraints, tasks, and test sets that constitute SEQUOR. Also contains the gold responses used to validate the LLM-as-a-judge evaluation.
 - `pipeline/`: Constraint collection and filtering pipeline (extraction, deduplication, satisfiability, triviality, subjectivity, tuple creation) and evaluation with LLM-as-a-judge. See [`pipeline/README.md`](pipeline/README.md).
 - `multi_if/`: Testset generation, model response generation, scoring, and plotting. See [`multi_if/README.md`](multi_if/README.md).
 
